@@ -27,9 +27,36 @@ a:hover {
 }
 
 /******************************************
-               EN-TÊTE DE PAGE
+               FONTS
 ******************************************/
 
+
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://gwfh.mranftl.com/fonts/open-sans?subsets=latin') format('woff2');
+}
+
+/******************************************
+               EN-TÊTE DE PAGE
+******************************************/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.liste-horizontale {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.liste-horizontale li {
+    margin-right: 10px;
+}
 
 
 
