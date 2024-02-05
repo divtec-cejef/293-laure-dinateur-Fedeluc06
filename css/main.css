@@ -18,12 +18,30 @@ img {
 }
 
 a {
-    color: deeppink;
+    color: #e71d36;
     text-decoration: none;
 }
 
 a:hover {
     color: darkmagenta;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.75em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Changa One', sans-serif;
+}
+
+p {
+    line-height: 1.5;
+
 }
 
 /******************************************
@@ -44,21 +62,39 @@ a:hover {
                EN-TÊTE DE PAGE
 ******************************************/
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: black;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
 }
+
 .liste-horizontale {
     list-style: none;
     display: flex;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .liste-horizontale li {
     margin-right: 10px;
 }
 
+.logo-nom, .logo-profession {
+font-family: "Changa One", sans-serif;
+}
 
+.logo-nom {
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.logo-profession {
+    margin-top: -5px;
+}
 
 
 /******************************************
@@ -79,7 +115,6 @@ header {
 /******************************************
                PAGE INFO
 ******************************************/
-
-.page-info h1 {
-    background-color: deepskyblue;
+.lien-presentation {
+    display: none;
 }
