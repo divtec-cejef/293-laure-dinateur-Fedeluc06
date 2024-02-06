@@ -97,8 +97,9 @@ nav ul {
 }
 
 nav ul li {
+    padding: 5px;
+    margin:0 auto;
     display: inline-block;
-    margin-right: 10px;
 }
 
 
@@ -125,7 +126,7 @@ nav ul li {
 }
 
 .lien-presentation {
-    color: #2ec4b6;
+    color:#2ec4b6;
 }
 
 .logo-nom {
@@ -133,9 +134,11 @@ nav ul li {
 }
 
 .image-laure {
-    height: 30%;
     width: 30%;
+    height: auto;
     border-radius: 200px;
+    display: block;
+    margin: auto;
 }
 
 h1 {
@@ -155,4 +158,28 @@ p {
 
 footer {
     text-align: center;
+}
+
+footer p {
+    display:grid;
+}
+
+.facebook-draw {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+}
+
+.twitter-draw {
+    height: 70px;
+    width: 70px;
+    display:inline-block;
+}
+
+.twitter-draw:hover {
+    opacity:60%;
+}
+
+.facebook-draw:hover {
+    opacity: 60%;
 }
