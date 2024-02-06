@@ -17,7 +17,7 @@ img {
     width: auto;
 }
 
-a {
+body a {
     color: #e71d36;
     text-decoration: none;
 }
@@ -41,7 +41,6 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     line-height: 1.5;
-
 }
 
 /******************************************
@@ -68,11 +67,8 @@ header {
     text-align: center;
 }
 
-.logo-nom, .logo-profession {
-font-family: "Changa One", sans-serif;
-}
-
 .logo-nom {
+    font-family: "Changa One", sans-serif;
     font-size: 1.75rem;
     line-height: 0.8;
     margin-bottom: 1rem;
@@ -80,6 +76,8 @@ font-family: "Changa One", sans-serif;
 }
 .logo-profession {
     margin-top: -5px;
+    font-weight: normal;
+    font-size: x-large;
 }
 
 /******************************************
@@ -102,6 +100,22 @@ nav ul li {
     display: inline-block;
 }
 
+nav ul li a {
+    color:white;
+    font-family: "Changa One",sans-serif;
+}
+
+/******************************************
+               Footer
+******************************************/
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    display:grid;
+}
 
 /******************************************
                PAGE ACCUEIL
@@ -115,8 +129,21 @@ nav ul li {
 ******************************************/
 
 .page-contact h1 {
-    background-color: yellow;
+    margin-left: 15px;
+    margin-bottom: -2px;
 }
+
+.section-infos {
+    margin-left: 15px;
+}
+
+.section-infos p {
+    margin-top: -25px;
+    padding-right:35px;
+}
+
+
+
 
 /******************************************
                PAGE INFO
@@ -125,8 +152,8 @@ nav ul li {
     display: none;
 }
 
-.lien-presentation {
-    color:#2ec4b6;
+.lien-presentation a {
+    color: #2ec4b6;
 }
 
 .logo-nom {
@@ -141,7 +168,7 @@ nav ul li {
     margin: auto;
 }
 
-h1 {
+.page-info h1 {
     text-align: center;
 }
 
@@ -149,37 +176,33 @@ h1 {
     margin-bottom: -20px;
 }
 
-p {
+.page-info p {
     margin-left: 5px;
     margin-right: 5px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-footer {
-    text-align: center;
-}
-
-footer p {
-    display:grid;
-}
-
 .facebook-draw {
-    height: 70px;
-    width: 70px;
+    height: 45px;
+    width: 45px;
     display: inline-block;
+    margin-left: 15px;
+    filter: grayscale(1);
 }
 
 .twitter-draw {
-    height: 70px;
-    width: 70px;
+    height: 45px;
+    width: 45px;
     display:inline-block;
+    margin-right:15px;
+    filter: grayscale(1);
 }
 
 .twitter-draw:hover {
-    opacity:60%;
+    filter: grayscale(0);
 }
 
 .facebook-draw:hover {
-    opacity: 60%;
+    filter: grayscale(0);
 }
