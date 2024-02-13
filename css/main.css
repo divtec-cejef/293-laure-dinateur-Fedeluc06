@@ -117,13 +117,40 @@ footer p {
     display:grid;
 }
 
+.facebook-draw {
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    margin-left: 15px;
+    filter: grayscale(1);
+}
+
+.twitter-draw {
+    height: 45px;
+    width: 45px;
+    display:inline-block;
+    margin-right:15px;
+    filter: grayscale(1);
+}
+
+.twitter-draw:hover {
+    filter: grayscale(0);
+}
+
+.facebook-draw:hover {
+    filter: grayscale(0);
+}
 /******************************************
                PAGE ACCUEIL
 ******************************************/
-
 .page-accueil h1 {
-    background-color: red;
+    text-align: center;
 }
+
+.page-accueil ul {
+    list-style: none;
+}
+
 /******************************************
                PAGE CONTACT
 ******************************************/
@@ -182,6 +209,10 @@ ul {
     margin-left: 40px;
 }
 
+.page-contact  .lien-contact a{
+    color: #2ec4b6;
+}
+
 /******************************************
                PAGE INFO
 ******************************************/
@@ -189,7 +220,7 @@ ul {
     display: none;
 }
 
-.lien-presentation a {
+.page-info .lien-presentation a {
     color: #2ec4b6;
 }
 
@@ -220,26 +251,3 @@ ul {
     padding-right: 20px;
 }
 
-.facebook-draw {
-    height: 45px;
-    width: 45px;
-    display: inline-block;
-    margin-left: 15px;
-    filter: grayscale(1);
-}
-
-.twitter-draw {
-    height: 45px;
-    width: 45px;
-    display:inline-block;
-    margin-right:15px;
-    filter: grayscale(1);
-}
-
-.twitter-draw:hover {
-    filter: grayscale(0);
-}
-
-.facebook-draw:hover {
-    filter: grayscale(0);
-}
