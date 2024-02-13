@@ -142,8 +142,45 @@ footer p {
     padding-right:35px;
 }
 
+.section-contact {
+    margin-left: 15px;
+}
 
+.liste1 {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url(../_sources/images/phone.png);
+}
 
+.liste2 {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url(../_sources/images/mail.png);
+}
+
+.liste3 {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url(../_sources/images/twitter.png);
+}
+
+.liste4 {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url(../_sources/images/facebook.png);
+}
+
+ul {
+    margin-left: 40px;
+}
 
 /******************************************
                PAGE INFO
