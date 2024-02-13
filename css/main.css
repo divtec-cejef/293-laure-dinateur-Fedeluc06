@@ -147,9 +147,28 @@ footer p {
     text-align: center;
 }
 
-.page-accueil ul {
-    list-style: none;
+.page-accueil img {
+    max-width: 100%;
 }
+
+.container-realisation {
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-accueil .container-realisation li {
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 1rem 2.5%;
+}
+
+figure {
+    margin:0;
+}
+
 
 /******************************************
                PAGE CONTACT
@@ -178,7 +197,7 @@ footer p {
     font-size: 100%;
     color: black;
     display: list-item;
-    list-style-image: url(../_sources/images/phone.png);
+    list-style-image: url(../images/phone.png);
 }
 
 .liste2 {
@@ -186,7 +205,7 @@ footer p {
     font-size: 100%;
     color: black;
     display: list-item;
-    list-style-image: url(../_sources/images/mail.png);
+    list-style-image: url(../images/mail.png);
 }
 
 .liste3 {
@@ -194,7 +213,7 @@ footer p {
     font-size: 100%;
     color: black;
     display: list-item;
-    list-style-image: url(../_sources/images/twitter.png);
+    list-style-image: url(../images/twitter.png);
 }
 
 .liste4 {
@@ -202,7 +221,7 @@ footer p {
     font-size: 100%;
     color: black;
     display: list-item;
-    list-style-image: url(../_sources/images/facebook.png);
+    list-style-image: url(../images/facebook.png);
 }
 
 ul {
