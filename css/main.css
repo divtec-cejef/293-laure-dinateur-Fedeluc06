@@ -161,8 +161,15 @@ footer p {
 
 .page-accueil .container-realisation li {
     flex-basis: 50%;
-    flex-grow: 1;
+    flex-grow: 2;
     padding: 1rem 2.5%;
+}
+
+@media screen and (min-width: 660px) {
+    .page-accueil .container-realisation li {
+        flex-basis: 33%;
+        flex-grow: 3;
+    }
 }
 
 figure {
